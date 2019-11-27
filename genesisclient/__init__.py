@@ -11,22 +11,22 @@ class GenesisClient(object):
     def __init__(self, site, username=None, password=None):
         self.sites = {
             'DESTATIS': {
-                'webservice_url': 'https://www-genesis.destatis.de/genesisWS'
+                'webservice_url': 'https://www-genesis.destatis.de/genesisWS/web'
             },
             'LDNRW': {
                 'webservice_url': 'https://www.landesdatenbank.nrw.de/ldbnrwws'
             },
             'REGIONAL': {
-                'webservice_url': 'https://www.regionalstatistik.de/genesisws'
+                'webservice_url': 'https://www.regionalstatistik.de/genesisws/web'
             },
             'BAYERN': {
-                'webservice_url': 'https://www.statistikdaten.bayern.de/genesisWS'
+                'webservice_url': 'https://www.statistikdaten.bayern.de/genesisWS/web'
             },
             #'SACHSEN': {
             #    'webservice_url': 'http://www.statistik.sachsen.de/...'
             #},
             'BILDUNG': {
-                'webservice_url': 'https://www.bildungsmonitoring.de/bildungws'
+                'webservice_url': 'https://www.bildungsmonitoring.de/bildungws/web'
             }
         }
         self.endpoints = {
